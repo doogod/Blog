@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/Blog-With-GitHub-Boilerplate/"
+site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -21,7 +21,7 @@ author = "拉麺六杯"
 email = "doogod@outlook.com"
 author_homepage = "https://www.imalan.cn"
 description = "仗义每多屠狗辈"
-key_words = ['Maverick', 'blog']
+key_words = ['blog']
 language = 'zh-CN'
 external_links = [
     {
@@ -58,11 +58,6 @@ social_links = [
         "name": "Twitter",
         "url": "https://twitter.com/AlanDecode",
         "icon": "gi gi-twitter"
-    },
-    {
-        "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
-        "icon": "gi gi-github"
     },
     {
         "name": "Weibo",
