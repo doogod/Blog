@@ -1,7 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>拉麺館</title><updated>2019-12-30T12:25:36.714722+08:06</updated><author><name>拉麺六杯</name><email>doogod@outlook.com</email></author><link href="/" rel="alternate"/><generator uri="http://lkiesow.github.io/python-feedgen" version="0.8.0">python-feedgen</generator><logo>${static_prefix}logo.png</logo><subtitle>仗义每多屠狗辈</subtitle><entry><id>/archives/my-first-awesome-post/</id><title>我的第一篇文章</title><updated>2019-12-30T12:25:36.714816+00:00</updated><author><name>&lt;填写你的名字&gt;</name><email>doogod@outlook.com</email><uri>https://www.imalan.cn</uri></author><content>&lt;p&gt;这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>拉麺館</title><updated>2019-12-30T13:27:51.138314+08:06</updated><author><name>拉麺六杯</name><email>doogod@outlook.com</email></author><link href="/" rel="alternate"/><generator uri="http://lkiesow.github.io/python-feedgen" version="0.8.0">python-feedgen</generator><logo>${static_prefix}logo.png</logo><subtitle>仗义每多屠狗辈</subtitle><entry><id>/archives/WordPress/</id><title>WordPress 和继承者们</title><updated>2019-12-30T13:27:51.138599+00:00</updated><author><name>\&lt;杜敏轩\&gt;</name><email>doogod@outlook.com</email><uri>https://www.imalan.cn</uri></author><content>&lt;p&gt;本文原载于 Medium，作者是 Jason Gowans，这里是译文。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;不管从哪个角度看，WordPress 都是一个现象级的产品。全世界有四分之一的网站都跑在 WordPress 上，它占据了全部CMS市场59%的份额。&lt;/p&gt;
+&lt;p&gt;WordPress 上超过四万的插件、一万以上的主题，这些共同打造了一个无与伦比的生态系统，这里有超过十万的开发者和上千家主机提供商，其中专注于 WordPress 主机服务的 WPEngine 融资4100万美金，在他们的服务器上跑了20多万个网站，服务了超过23,000的用户。&lt;/p&gt;
+&lt;p&gt;WordPress.com 有不计其数的盈利手段，比如说主机、谷歌广告、主题购买、高级会员服务、技术支持、定向流量、保险库、视频发布等等。&lt;/p&gt;
+&lt;p&gt;然而，这么一个巨无霸，他们的消费者加起来比冰岛人口还多，说它以后再也不能继续统治这个市场，有人会信吗？&lt;/p&gt;
+&lt;h2&gt;那些个竞争对手&lt;/h2&gt;
+&lt;p&gt;下面这张表单上，你可以看到像 Squarespace 这样的公司，虽然只有可怜的0.4%市场份额，市值却达到了5亿美金。Automattic 和 Wix 也在这份表单上叨陪末座，所以我相信情况一定会有所变化。比如 Github Pages，好像才0.1%的份额？但这目前来说不过是程序员的玩具罢了。&lt;/p&gt;
+&lt;p&gt;就算，WordPress有7千万的站点，Github Pages 只有70万，但后者的增长速度实在快的吓人，而且对专业人士尤其是开发者来说，把内容发布到 Github 上的效果完爆 Wordpress，别提这还是在 WordPress 十分擅长的PHP世界里了。&lt;/p&gt;
+&lt;h2&gt;静态页面生成器&lt;/h2&gt;
+&lt;p&gt;WordPress 可以被细分成五个部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;内容管理系统&lt;/li&gt;
+&lt;li&gt;模板引擎&lt;/li&gt;
+&lt;li&gt;插件&lt;/li&gt;
+&lt;li&gt;主题&lt;/li&gt;
+&lt;li&gt;主机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一个静态页面生成器（Static SIte Generators）基本上就是一个输出静态元素（比如说HTML、CSS和JavaScript）的模板，然后这些静态元素会被存放在 CDN 上。就在写这篇文章的时候，市面上已经有用 Ruby,Go,Python各种语言写的超过100个的静态页面生成器。&lt;/p&gt;
+&lt;p&gt;程序员越来越多的开始采用速度更快更安全确比 WordPress 更简单的SSG了，而且一般来说能更好的兼容 Github 和 Bitbucket 这些版本控制平台。David Walsh 在他的博客里很好的分析了静态站点的优势与劣势。&lt;/p&gt;
+&lt;p&gt;我提程序员，是因为目前这个阶段，静态页面生成器很大程度上还只是一个开发工具。想把这个工具推广给世界上最牛逼的内容生产者，还要重走一遍 WordPress 曾经走过的路，比如需要一个轻量的编辑器，一个可以供独立开发者制作主题和软件的平台，还有就是智能托管，这也是 Aerobatic，Github Pages 等等团队正在做的。在我看来，一个智能主机团队可以做的事情可比存放站点要多得多了，这方面你可以去看 Aerobatic 的文档。&lt;/p&gt;
+&lt;p&gt;静态页面生成器在搭建和编辑方面落后的距离在短时间内就可以轻松补上，并且可以接过 WP Engine 和 WordPress 的火炬。WP Engine 和 WordPress 自己会迎接这种革命吗？WP Engine 存在的意义就是弥补了 WordPress 的缺点，像龟速、堪忧的安全问题和对技术一知半解、对问题视而不见的用户社区。这样依附于 WordPress 的 WP Engine，有足够的动力去革自己的命吗？&lt;/p&gt;
+&lt;h2&gt;WordPress 也不傻&lt;/h2&gt;
+&lt;p&gt;看到这你或许相信了未来是属于静态语言的，也许也意识到了对WordPress 来讲说服那些自认为是 WordPress 开发者的人接受非 PHP 语言有多么困难。但 WordPress 的人不是傻子，他们不会干愣着坐以待毙，Calypso 计划上线后，WordPress 用 NodeJS 和 ReactJS 完全重写了他们的内容管理系统，这两个是啥？不就是静态语言嘛！（傲娇的宝宝）&lt;/p&gt;
+&lt;p&gt;也就是说，WordPress 也动摇了，他们开始往 JavaScipt 和 Github 方向靠。不过最大的挑战是要说服数十万的 PHP 开发者来接受之一变化。&lt;/p&gt;
+&lt;p&gt;即使是 Calypso 计划的成员也得面对我们的威胁。虽然我们团队没有人是很牛的 JavaScript 程序员，但每天我们都可以积累经验，犯的错误我们会去反省，然后改正，吸取教训。当我们的计划有所进步时，我们就为其他工程师树立了标杆，并且会在业内分享我们的知识。
+既然 WordPress 的内容管理系统已经重写为静态的了，那么他们的模板引擎呢？那么庞大的插件和主题平台呢？这些问题决定了未来网络内容出版的方向，这可是几十亿美金的生意啊。&lt;/p&gt;
+&lt;p&gt;一个读者在他的评论中写了他的想法：&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;我认为 PHP 世界是该醒醒了。静态会成为网络世界的通用语言的。PHP7 是一个好的改变但还做得不够。醒醒吧，WordPress 都开始摆脱 PHP 了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;毋庸置疑，五年后的 WordPress 肯定不会和现在的地位一样。那些做静态页面生成器的 Jekyll、Hugo 和做智能托管的 Aerobatic 等公司一定会拔地而起。有一亿四千万美金在手的 WordPress 不一定会死，但就像 Squarespace 那样，即使只有0.4% 份额，也可以做到五亿美金估值。这是是个十分巨大的而且还在成长的市场，创业公司有数不尽的机会去大展拳脚，完全不用担心那几十万程序员的死活（PHP 再次躺枪-_-!）。&lt;/p&gt;
+&lt;p&gt;我最早贴出这篇文章的时候，我把 WordPress 里的大写「P」错打成了小写「p」，本来没想改的，但是一想到大写「P」对很多人来说很重要，还是给改了（又黑 PHP 一把？）。&lt;/p&gt;
+</content><link href="/archives/WordPress/" rel="alternate"/><published>2016-03-02T20:34:00+08:06</published></entry><entry><id>/archives/my-first-awesome-post/</id><title>我的第一篇文章</title><updated>2019-12-30T13:27:51.138569+00:00</updated><author><name>&lt;填写你的名字&gt;</name><email>doogod@outlook.com</email><uri>https://www.imalan.cn</uri></author><content>&lt;p&gt;这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
 &lt;figure class="pswp-item" style="flex: 92.88888888888889" data-width="836" data-height="450"&gt;&lt;img src="https://cdn.jsdelivr.net/gh/doogod/Blog/archives/assets/e0affbc80ccb2d596c87b520e37e7071.jpg" alt="幽灵公主剧照" /&gt;&lt;figcaption&gt;幽灵公主剧照&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-</content><link href="/archives/my-first-awesome-post/" rel="alternate"/><published>2019-12-17T20:34:00+08:06</published></entry><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2019-12-30T12:25:36.714773+00:00</updated><author><name>AlanDecode</name><email>doogod@outlook.com</email><uri>https://www.imalan.cn</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+</content><link href="/archives/my-first-awesome-post/" rel="alternate"/><published>2019-12-17T20:34:00+08:06</published></entry><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2019-12-30T13:27:51.138514+00:00</updated><author><name>AlanDecode</name><email>doogod@outlook.com</email><uri>https://www.imalan.cn</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
