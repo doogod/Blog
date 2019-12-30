@@ -10,7 +10,7 @@ index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "doogod/Blog"
+    "repo": "doogod/Blog@gh-pages"
 }
 
 # 站点设置
